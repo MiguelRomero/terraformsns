@@ -40,13 +40,10 @@ resource "aws_sqs_queue" "terraform_queue" {
     Environment = "production"
   }
 }
-resource "aws_sqs_queue" "nikeQueue" {
+resource "aws_sqs_queue" "Queue" {
 
-    name= "s3-event-nike-sqs"
-    policy = <<POLICY
-    {
-      "Version:"  
-    }
+    name= "s3-event-sqs"
+
 
 }
 
