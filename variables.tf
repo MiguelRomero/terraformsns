@@ -5,7 +5,7 @@ variable "instance_name" {
 }
 
 variable "sns-email" {
-  default     =  "miguel.romero@accenture.com"
+  default     =  "miguelromeroruiz@outlook.com"
   description =  "This is the email where sns is activated"
   type        =  string
 }
